@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <!-- ADD CSS HERE -->
+    <link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" href="golden_mean.css">
+    
+    <title>Golden Mean</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="display-3" ><a href="/" style="color:gold;"><i class="fas fa-balance-scale" style="color:gold;"></i> The Golden Mean</a></h1>
+            <h2>How do you Feel NOW? vs. How do you NEED to feel?</h2>
+            <div class="row p-5 border rounded align-items-center">
+                    <!-- BLOCK CONTENT HERE -->
+                    <!-- #slider-golden = at perfect range -->
+                    <!-- if too low or high, change to #slider-warning or #slider-danger and change color accordingly -->
+
+                    <br><br><div class="row text-center courage">
+                        <div class="col-sm-10 mt-5">
+                            <br><label for="courage-slider" class="form-label slider slider-golden">Courage/Bravery</label>
+                            <p ><em>Courage is the first of human virtues because it makes all others possible. - Aristotle</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Cowardly</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Brave</div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Reckless</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="10" value = "8"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center generosity">
+                        <div class="col-sm-10">
+                            <br><label for="courage-slider" class="form-label slider slider-golden">Generosity</label>
+                            <p ><em>"A kind gesture can reach a wound that only compassion can heal." - Steve Maraboli</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/FISHHOOK_WITH_MONEY_thumbnail.jpg" alt="greed - picture of money-grabbing mouse in trap"><br>Stingy/Miserly</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/generosity_thumbnail.jpg" alt="brave - picture of superhero"><br>Generous</div>
+                            <div class="col-sm-2 text-center border"><img src="images/spendthrift_bankruptcy_thumbnail.png" alt=""><br>Extravagence</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range" id="head-slider" name="head-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center ambition">
+                        <div class="col-sm-10 ">
+                            <br><label for="ambition-slider" class="form-label slider slider-golden">Ambition/Conscienciousness</label>
+                            <p ><em>Intelligence without ambition is a bird without wings.”
+                                – Salvador Dali</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/Sloth Illustration_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Sloth/Laziness</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/target-600_thumbnail.jpg" alt="brave - picture of superhero"><br>Achieving</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/zomby_thumbnail.jpg" alt=""><br>No life but work</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="ambition-slider" name="amgition-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center confidence">
+                        <div class="col-sm-10 ">
+                            <br><label for="courage-slider" class="form-label slider slider-golden">Self-esteem</label>
+                            <p ><em>“All you need in this life is ignorance and confidence, and then success is sure.” – Mark Twain</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/insecure_thumbnail.jpg"><br>Insecure/arrogant</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/confidence_thumbnail.jpg" alt="brave - picture of superhero"><br>Self-assured/confident/passionate</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/vanity_thumbnail.jpg" alt=""><br>Narcissistic/Over-prideful</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="head-slider" name="head-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center honesty">
+                        <div class="col-sm-10">
+                            <br><label for="courage-slider" class="form-label slider slider-golden">Honesty/Self-expression</label>
+                            <p ><em>“All you need in this life is ignorance and confidence, and then success is sure.” – Mark Twain</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/dishonesty_thumbnail.jpg" alt="dishonesty - picture of broken hearted couple"><br>Lying or silence from fear or selfishness</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/honesty_thumbnail.jpg"><br>Tactfully honest & communicative</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/attention_thumbnail.jpg" alt=""><br>Loquacity/Insensitive or arrogant loud-mouth</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="head-slider" name="head-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center humor">
+                        <div class="col-sm-10">
+                            <br><label for="humor-slider" class="form-label slider slider-golden">Good humor</label>
+                            <p ><em>“A day without laughter is a day wasted" - Charlie Chaplin</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Morose/addicted to self-pity & distractions</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Laughing away challenges & practicing living in gratitude</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Absurd/fleeing reality</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="humor-slider" name="humor-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center friendship">
+                        <div class="col-sm-10">
+                            <br><label for="friendship-slider" class="form-label slider slider-golden">Friendship</label>
+                            <p ><em>“The most beautiful discovery true friends make is that they can grow separately without growing apart.” — Elisabeth Foley</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Arguing out of resentment or insecurity</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Giving and receiving kindness/loving friendship</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Flattery/placating out of fear or insecurity</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="friendship-slider" name="friendship-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center temperance">
+                        <div class="col-sm-10 ">
+                            <br><label for="friendship-slider" class="form-label slider slider-golden">Temperance/Practical judgment/Maturity</label>
+                            <p ><em>“There is no difference between knowledge and temperance; for he who knows what is good and embraces it, who knows what is bad and avoids it, is learned and temperate." - Socrates</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Self-indulgent/irresponsible</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Practical wisdom/maturity/self-control/Work-life-health balance</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Insensibility/stress-bomb/unforgiving of others</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="friendship-slider" name="friendship-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center composure">
+                        <div class="col-sm-10 ">
+                            <br><label for="composure-slider" class="form-label slider slider-golden">Composure/Keeping your cool</label>
+                            <p ><em>“As soon as anger knocks at one’s door, wisdom prepares to leave.”
+                                ― Pawan Mishra, Coinman: An Untold Conspiracy</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Apathetic/no boundaries</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Relaxed and at peace/Patient and understanding of others</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Quick to anger and criticize/Stressed out</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="composure-slider" name="composure-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+                    <br><br><div class="row text-center self-control">
+                        <div class="col-sm-10 ">
+                            <br><label for="self-control-slider" class="form-label slider slider-golden">Self-control</label>
+                            <p ><em>“Control yourself or someone else will control you" - Anonymous</em></p>
+                            <div class="col-sm-2 text-center border"><img src="images/cowardice_chicken_thumbnail.jpg" alt="cowardice - picture of chicken"><br>Indecisiveness</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/brave_Superhero_thumbnail.png" alt="brave - picture of superhero"><br>Already decided <br>Who I AM: Relaxed and in control</div>
+                            <div class="col-sm-2 text-center border"></div>
+                            <div class="col-sm-2 text-center border"><img src="images/reckless_rocket_pack_thumbnail.jpg" alt=""><br>Impulsiveness</div>
+                            
+                        </div>
+                        <div class="col-sm-10 m-2 text-center">
+                          <input type="range" class="form-range bg-success" id="self-control-slider" name="self-control-slider" min="0" max="10" value = "7"><br>
+                        </div>  
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+</html>
